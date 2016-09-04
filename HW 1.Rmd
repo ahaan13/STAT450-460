@@ -44,6 +44,8 @@ $\sigma = SD(Y)$
 $n=6$ and $\mu=161/36=4.472$
 
 $\sigma = \sqrt{((1-161/36)^2 + (2-161/36)^2 + ... + (6-161/36)^2)/5} =$ $\sqrt{6006}/36 = 2.15$
+
+Just find $\sigma$ by taking $\sqrt(Var(Y)))$
         
         
         
@@ -71,6 +73,7 @@ $E(Z^2) = E([2Y+1]^2) = E(4Y^2 + 1) = 4*E(Y^2)+1 = 4*(791/36)+1 = 800/9 = 88.89$
 
 $Var(Z) = E(Z^2) - E(Z)^2 = 800/9 - (178/18)^2 = 721/81 = 8.9$
 
+Find $Var(Z)$ by taking $4*Var(Y)$ 
 
 
 #Simulation section
